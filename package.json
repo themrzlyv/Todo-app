@@ -2,7 +2,7 @@
   "name": "react-typescript-webpack",
   "version": "1.0.0",
   "description": "react typescript boilerplate",
-  "main": "build/server.js",
+  "main": "build/bundle.js",
   "scripts": {
     "build": "webpack ",
     "watch:build": "webpack -w",
