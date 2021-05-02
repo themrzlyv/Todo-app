@@ -1,0 +1,10 @@
+# dependencies
+/node_modules/
+
+# production bundles
+/build/
+
+.env
+package-lock.json
+yarn.lock
+yarn-error.log

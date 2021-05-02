@@ -1,0 +1,23 @@
+select {
+    border: none !important;
+    background-color: transparent !important;
+}
+
+select:focus, input:focus, button:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+
+input {
+    border: none !important;
+    text-indent: 7px;
+}
+
+input::placeholder {
+    font-style: italic;
+}
+
+a {
+    text-decoration: none !important;
+}

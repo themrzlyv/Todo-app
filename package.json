@@ -1,0 +1,58 @@
+{
+  "name": "react-typescript-webpack",
+  "version": "1.0.0",
+  "description": "react typescript boilerplate",
+  "main": "build/server.js",
+  "scripts": {
+    "build": "webpack ",
+    "watch:build": "webpack -w",
+    "watch:serve": "webpack serve",
+    "dev": "npm-run-all --parallel watch:*"
+  },
+  "keywords": [
+    "react",
+    "react-redux",
+    "typescript"
+  ],
+  "author": "themrzlyv",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/query-string": "^6.3.0",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "@types/react-redux": "^7.1.16",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/redux": "^3.6.0",
+    "@types/redux-devtools-extension": "^2.13.2",
+    "@types/redux-thunk": "^2.1.0",
+    "css-loader": "^5.2.2",
+    "dotenv-webpack": "^7.0.2",
+    "file-loader": "^6.2.0",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.5.0",
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.7",
+    "npm-run-all": "^4.1.5",
+    "query-string": "^7.0.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.3.0",
+    "sass-loader": "^11.0.1",
+    "ts-loader": "^9.0.0",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.5.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
+    "react-loading-skeleton": "^2.2.0",
+    "react-redux": "^7.2.3",
+    "react-router-dom": "^5.2.0",
+    "react-toast-notifications": "^2.4.3",
+    "redux": "^4.0.5",
+    "typescript": "^4.2.4"
+  }
+}
